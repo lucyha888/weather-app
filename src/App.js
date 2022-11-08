@@ -26,7 +26,7 @@ function App() {
       <h2>Weather app</h2>
       <input type="text" placeholder='Please input the city' value={value} onChange={e => setValue(e.target.value)} />
       <button onClick={() => setIsCall(true)}>Search</button>
-      <p>Temp of {value}: {result}, description: {description}</p>
+      <p>Temperature of {value}: {result}, description: {description}</p>
     </div>
   );
 }
